@@ -1,48 +1,69 @@
-
-header{
-    height: 50px;
-            background-color:white;
-            list-style: none;
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+body{
+    color:white;
 }
 
-
-
-
-
-
-
-
-nav a{
-        color: gray;
-}
-        nav ul{
-            height: 50px;
-            background-color: rgb(104, 104, 248);
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            align-items: center;
-            
-        
-        }
-        
-        a:hover{
-            color: white;
-        }
-    
-
-# one{
-    margin: 40px;
-    padding: 50px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
- main {
-    background-color: darkred;
- }
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  line-height: 1.6;
+}
 
- 
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.hero {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.branding {
+  background: red;
+  color: white;
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.service-item {
+  border: 1px solid gray;
+  padding: 20px;
+  width: 120px;
+}
+
+.service-item.active {
+  background: red;
+  color: white;
+}
+
+.about-us {
+  background: red;
+  color: white;
+  text-align: center;
+}
+
