@@ -1,0 +1,48 @@
+
+header{
+    height: 50px;
+            background-color:white;
+            list-style: none;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+
+
+
+
+
+
+
+nav a{
+        color: gray;
+}
+        nav ul{
+            height: 50px;
+            background-color: rgb(104, 104, 248);
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            align-items: center;
+            
+        
+        }
+        
+        a:hover{
+            color: white;
+        }
+    
+
+# one{
+    margin: 40px;
+    padding: 50px;
+}
+
+ main {
+    background-color: darkred;
+ }
+
+ 
